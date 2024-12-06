@@ -11,7 +11,7 @@ lower_string = sample_string.lower()
 print("Lowercase:", lower_string)
 
 # partition() - Returns a tuple
-partitioned_string = sample_string.partition(",")
+partitioned_string = sample_string.partition(";")
 print("Partitioned:", partitioned_string)
 
 # replace() - Replaces substring inside
